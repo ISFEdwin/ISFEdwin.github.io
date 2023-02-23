@@ -9,4 +9,31 @@ html{
     display: flex; /* or inline-flex */
     justify-content: center;
    
-  }
+}
+
+.nav{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+h1{
+    font-size:10rem;
+    line-height:4.5rem;
+}
+
+.introduction {
+
+}
+.nav{
+    background-color: rgb(56, 56, 56);
+    color:white;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.nav ::after{
+    background-color: 57737A;
+}
