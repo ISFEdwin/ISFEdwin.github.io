@@ -12,3 +12,4 @@ My personal site.
 - [google search bar](https://codepen.io/eqbrown/pen/XWBvvjE) - used the css properties for the pill design
 - [myself] - used a lot of my previous elements such as idk
 - [wolfie] - taking major inspirations
+- [fosshem](https://fossheim.io/writing/posts/css-text-gradient/)
