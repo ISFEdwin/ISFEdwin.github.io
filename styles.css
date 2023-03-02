@@ -173,6 +173,7 @@ nav{
 }
 .connections h3:hover{
     font-size:5rem;
+    -webkit-text-stroke: 0.0001px rgb(255, 255, 255);
 }
 
 
@@ -372,31 +373,41 @@ nav{
 .image-desc{
     text-align:center;
 }
+.shuyuancs{
+    background-image:linear-gradient(rgb(242, 255, 215),rgb(172, 227, 255))
+}
 .project{
     display:flex;
+    flex-direction:column;
     justify-content:space-around;
 }
-.projecttext{
+.project p{
     margin:10px;
     margin-top:-10px;
     padding:10px;
+    text-align:center;
+    font-size:1.5rem;
 }
 
 .project img{
-    width:600px;
-    height:380px;
-    transition:1s;
-    border-radius:25px;
-}
-.project img:hover{
+    display:block;
     width:720px;
     height:456px;
+    transition:1s;
+    border-radius:25px;
+    justify-items:center;
+    margin: auto;
+}
+.project img:hover{
+    width:864px;
+    height:547.2px;
 }
 
 .scs{
     font-size:3rem;
     transition:0.75s;
     line-height:normal;
+    text-align:center;
 }
 .scs:hover{
     font-size:4rem;
@@ -409,4 +420,36 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -webkit-text-stroke: 0.0001px rgb(255, 255, 255);
+}
+.scs-text{
+    text-align:center;
+}
+.wechat{
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    font-size:2.5rem;
+    font-family: 'Shantell Sans', cursive;
+}
+.wechat img{
+    display:block;
+    margin:auto;
+    margin-top:-200px;
+    width:50%;
+}
+.connections-2{
+    padding:10px;
+    background-image:linear-gradient(to right,rgb(151, 217, 255),rgb(155, 255, 155),rgb(255, 229, 157));
+    justify-content: center;
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+}
+.connections-2 h3{
+    font-size:4.2rem;
+    transition:1s;
+}
+.connections-2 h3:hover{
+    font-size:5rem;
+    -webkit-text-stroke: 0.0001px rgb(0, 0, 0);
 }
