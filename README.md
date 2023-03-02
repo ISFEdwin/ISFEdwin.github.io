@@ -13,3 +13,4 @@ My personal site.
 - [myself] - used a lot of my previous elements such as idk
 - [wolfie] - taking major inspirations
 - [fosshem](https://fossheim.io/writing/posts/css-text-gradient/)
+- [Julian] (https://0011050.github.io/) - used linear gradient, which I found out through his website. 

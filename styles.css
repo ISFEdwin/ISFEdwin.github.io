@@ -32,7 +32,6 @@ nav{
     font-family: 'Dosis', sans-serif;
 }
 
-
 .title{
     font-size:6rem;
     line-height:6rem;
@@ -92,7 +91,7 @@ nav{
 
 .aboutme{
     /* background-image: url('images/computer.gif'); */
-    background-image: linear-gradient(to right, rgb(0, 99, 160),rgb(0, 162, 255),rgb(0, 255, 162));
+    background-image: linear-gradient(to right, rgb(0, 99, 160),rgb(0, 162, 255),rgb(94, 255, 196));
     padding:10px;
     margin:25px;
     border:25px solid black;
@@ -103,7 +102,7 @@ nav{
     color:white;
     font-family: 'Shantell Sans', cursive;
 }
-
+ 
 .aboutme img{
     width:450px;
     height:300px;
@@ -261,10 +260,9 @@ nav{
     -webkit-text-stroke: 0.0001px rgb(255, 255, 255);
 }
 .personal-project-2{
-    display:flex;
     background-image:linear-gradient(rgb(195, 255, 244),rgb(242, 255, 215));
+    margin:0;
 }
-
 .pvid {
     border-radius:5px;
     margin:20px;
@@ -274,6 +272,7 @@ nav{
     justify-content:center;
     text-align:center;
     padding:10px;
+    margin: 0 auto;
     /* background-image:linear-gradient(rgb(224, 255, 165),rgb(255, 168, 168)) */
 }
 .media{
@@ -316,10 +315,6 @@ nav{
     font-size:5rem;
 }
 
-.image-desc{
-    width:20%;
-    max-width:20%;
-}
 .computer-part{
     text-align:center;
     justify-content:center;
@@ -336,4 +331,82 @@ nav{
     margin-left:690px;
     margin-right:690px;
     margin-top:-129px;
+}
+.glink{
+    transition:0.5s;
+}
+.glink:hover{
+    font-size:1.5rem;
+}
+.glossary li{
+    text-align:center;
+}
+.glossary ol{
+    text-align:center;
+}
+.images-descs{
+    display:flex;
+    justify-content:space-evenly;
+}
+.images-descs-2{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.images-descs-flex{
+    display:flex;
+    flex-direction: column;
+}
+.images-descs-flex img{
+    width:600px;
+    height:380px;
+    transition:1s;
+}
+.images-descs-flex img:hover{
+    width:720px;
+    height:456px;
+}
+.snippettext{
+    text-align:center;
+}
+.image-desc{
+    text-align:center;
+}
+.project{
+    display:flex;
+    justify-content:space-around;
+}
+.projecttext{
+    margin:10px;
+    margin-top:-10px;
+    padding:10px;
+}
+
+.project img{
+    width:600px;
+    height:380px;
+    transition:1s;
+    border-radius:25px;
+}
+.project img:hover{
+    width:720px;
+    height:456px;
+}
+
+.scs{
+    font-size:3rem;
+    transition:0.75s;
+    line-height:normal;
+}
+.scs:hover{
+    font-size:4rem;
+
+    background-image: linear-gradient(45deg,#8400ff, #ddff00); 
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke: 0.0001px rgb(255, 255, 255);
 }
