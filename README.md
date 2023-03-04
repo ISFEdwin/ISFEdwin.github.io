@@ -1,4 +1,4 @@
-# emmaqbrown.github.io
+# ISFEdwin.github.io
 
 My personal site.
 
@@ -10,7 +10,25 @@ My personal site.
 
 - [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - center content and create structure to the site
 - [google search bar](https://codepen.io/eqbrown/pen/XWBvvjE) - used the css properties for the pill design
-- [myself] - used a lot of my previous elements such as idk
-- [wolfie] - taking major inspirations
-- [fosshem](https://fossheim.io/writing/posts/css-text-gradient/)
+- [wolfie] (https://wolfie.dev/) - taking inspiration from connection section and the animations.
+- [fosshem](https://fossheim.io/writing/posts/css-text-gradient/) - Used the text color mask for title, animation and so on.
 - [Julian] (https://0011050.github.io/) - used linear gradient, which I found out through his website. 
+
+## Changes to wireframe
+
+Index.html
+-> Due to technical difficulties, I wasn't able to implement the full desktop setup, only the desktop section. 
+-> Didn't add more info section as it felt unnecessary. 
+-> Added some pictures 
+-> Changed the width of the connection section.
+Accomplishments.html
+-> Straight up changed the name of the site (from programming to accomplishments), didn't include a lot of the different sections previously planned, navigation bar is lacking the third site as it was not needed. 
+-> Added a glossary
+-> Changed the formatting of the images & videos
+-> Added sections (some snippets)
+-> Changed the formatting of some sections (moving stuff from the side to the center)
+-> Added the connect with me section
+-> Changed the title formatting 
+ 
+ Stuff.html
+ -> Scrapped. 
