@@ -16,19 +16,32 @@ My personal site.
 
 ## Changes to wireframe
 
-Index.html
+**Index.html**
+<br>
 -> Due to technical difficulties, I wasn't able to implement the full desktop setup, only the desktop section. 
+<br>
 -> Didn't add more info section as it felt unnecessary. 
+<br>
 -> Added some pictures 
+<br>
 -> Changed the width of the connection section.
-Accomplishments.html
+<br>
+
+**Accomplishments.html**
 -> Straight up changed the name of the site (from programming to accomplishments), didn't include a lot of the different sections previously planned, navigation bar is lacking the third site as it was not needed. 
+<br>
 -> Added a glossary
+<br>
 -> Changed the formatting of the images & videos
+<br>
 -> Added sections (some snippets)
+<br>
 -> Changed the formatting of some sections (moving stuff from the side to the center)
+<br>
 -> Added the connect with me section
+<br>
 -> Changed the title formatting 
+<br>
  
- Stuff.html
+ **Stuff.html**
  -> Scrapped. 
