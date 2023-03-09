@@ -28,6 +28,7 @@ My personal site.
 <br>
 
 **Accomplishments.html**
+<br>
 -> Straight up changed the name of the site (from programming to accomplishments), didn't include a lot of the different sections previously planned, navigation bar is lacking the third site as it was not needed. 
 <br>
 -> Added a glossary
@@ -45,4 +46,3 @@ My personal site.
  
  **Stuff.html**
  -> Scrapped. 
- 
