@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html id="htmlcode">
+   <script>
+    function deleteall(x) {
+        document.getElementById(x).innerHTML = "";
+    }
+    function NewTab() {
+        window.open(
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley", "_blank");
+    }
+    function both(){
+        deleteall("htmlcode");
+        NewTab();
+    }
+  </script>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title>404</title>
+  </head>
+
+  <header>
+    <div class="sidebar">
+      <nav>
+        <b>
+        <a class="navitem" href="index.html">Home</a> |
+        <a class="navitem" href="accomplishments.html">Accomplishments</a> 
+        </b>
+      </nav>
+    </div>
+  </header>
+  <body>
+    <div class="title-3">
+        <h1 class="gradient-text-404">404</h1>
+    </div>
+    <button class="button-19" role="button" onclick="both()">Home</button>
+  </body>
+</html>

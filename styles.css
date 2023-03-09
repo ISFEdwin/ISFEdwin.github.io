@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 
 html{
     font-family: 'Gloock', serif;
@@ -452,4 +453,93 @@ nav{
 .connections-2 h3:hover{
     font-size:5rem;
     -webkit-text-stroke: 0.0001px rgb(0, 0, 0);
+}
+.gradient-text-404 {
+    font-family: 'Rubik Iso', cursive;
+    transition:0.5s;
+    font-size:10rem;
+    line-height:10rem;
+}
+.gradient-text-404:hover{
+    font-size:15rem;
+    line-height:15rem;
+    font-weight:900;
+    letter-spacing:1.3rem;
+        /* Create the gradient. */
+    background-image: linear-gradient(45deg, #2d85ff, #6cff61);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+
+}
+.title-3{
+    font-size:6rem;
+    line-height:6rem;
+    background-image: linear-gradient(to bottom right,rgb(255, 183, 0), rgb(49, 252, 255));;
+    border:10px;
+    text-align:center;
+    padding:1rem;
+    margin:auto;
+    padding-bottom:0.5rem;
+}
+.button-19 {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
 }
