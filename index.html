@@ -1,78 +1,62 @@
 <!DOCTYPE html>
-<html>
-    
-  <head>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="images/logo.png">
-    <title>Edwin</title>
-  </head>
-
-  <header>
-    <div class="sidebar">
-      <nav>
-        <b>
-        <a class="navitem" href="index.html">Home</a> |
-        <a class="navitem" href="accomplishments.html">Accomplishments</a> 
-        </b>
-      </nav>
-    </div>
-  </header>
-  <body>
-    <div class="title">
-      <h1 class="gradient-text">E d w i n</h1>
-    </div>
-    <div class="aboutmeword">
-      <h2>
-        About Me:
-      </h2>
-    </div>
-    <div class="aboutme">
-      <p>
-      <b class="linkabt">Hi!</b>
-      <br>
-      My name is Edwin, currently a 
-      <a class="student">student</a> 
-      at 
-      <a class="linkabt" target="_blank" href="https://academy.isf.edu.hk/">ISF</a>
-      .
-      <br>
-      Currently grade 10 taking the Shuyuan Computer Science course!
-      <br>
-      I'm currently 15, and I'm trying to improve my coding capabilities. 
-      <br>
-      I created a website that holds most of my current 
-      <a class="linkabt" href="accomplishments.html">accomplishments</a>,
-      <br>
-      and hope you have fun exploring my website!
-      </p>
-      <img src="images/isf.jpg" alt="My school!">
-      <img src="images/pp.png" alt="My personal project!">
-    </div>
-    <br>
-    <p class="computer-part"></p>
-    <p class="computer-part2"><br></p>
-
-    <div class="connections">
-      <h3>Connect with me!</h3>
-        <div class="c-container">
-          <a href="https://discord.gg/fBW3qgEPpa" target="_blank" class="citems"> 
-            <img src="images/discord.png" alt="discord logo" width="100" height="80">
-            <h5>Discord</h5>
-          </a>
-          <a href="wechat.html" target="_blank" class="citems-2"> 
-            <img src="images/wechat.png" alt="wechat logo" width="80" height="80">
-            <h5>Wechat</h5>
-          </a>
-          <a href="https://github.com/ISFEdwin" target="_blank" class="citems-2"> 
-            <img src="images/github.png" alt="github logo" width="80" height="80">
-            <h5>Github</h5>
-          </a>
-          <a href="mailto:0012029@student.isf.edu.hk" target="_blank" class="citems"> 
-            <img src="images/gmail.png" alt="gmail logo" width="100" height="80">
-            <h5>Email</h5>
-          </a>
+<!-- Inspired by https://codepen.io/bradtraversy/pen/BaoWWjb and https://www.youtube.com/watch?v=Gx_7GQtSdpc and https://getcssscan.com/css-buttons-examples, music from internet archive-->
+<html lang="en">
+    <head>
+        <meta name ="viewport" content="initial-scale=1, width=device-width">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="images/logo.png">
+        <title>Edwin</title>
+    </head>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let audio = document.getElementById('audio');
+            audio.currentTime = 20;
+            let musicplayer = document.getElementById("playmusic");
+            musicplayer.addEventListener("click",function(){
+                videomusic();
+                if(audio.paused===true){
+                    musicplayer.innerText="BGM: off";
+                }
+                else{
+                    musicplayer.innerText="BGM: on"
+                }
+            });
+            let redirector = document.getElementById("redirect");
+            redirector.addEventListener("click",function(){
+                location.href = "aboutme.html";
+            });
+        });
+        
+        function videomusic()
+        {
+            let audio = document.getElementById('audio');
+            if(audio.paused===true){
+                audio.play();
+            }
+            else{
+                audio.pause();
+                audio.innerText="Enable Background Music";
+            }
+        }
+        
+    </script>
+    <body class="index">
+        <div id="soundtrack">
+            <audio loop autoplay volume = 0.5 id='audio' ><source src='music/Cornfield Chase.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio>
         </div>
-    </div>
-
-  </body>
+        <div class="video-background">
+            <div class="video-foreground">
+                <iframe id="videoitself" src="https://www.youtube.com/embed/xTvvQ65jWVs?si=rLNxdyV5Dd75SkdD&autoplay=1&controls=0&fs=0&loop=1&rel=0&showinfo=0&disablekb=1&start=53&end=174&mute=1" frameborder="0" allowfullscreen ></iframe>
+            </div>
+        </div>
+        <div id="vidtop-content">
+            <div class="vid-info">
+                <h1><strong>Welcome, Netizen</strong></h1>
+                <p>to my landing page.</p>
+                <button class="button-85" id="redirect"><strong>About me</strong></button> <!--Using https://getcssscan.com/css-buttons-examples-->
+                <button class ="bgmbutton" id="playmusic" >BGM: off</button>
+            </div>
+        </div>
+        
+    </body>
 </html>
